@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Counter View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Counter" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="CounterViewController" customModule="Counter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -30,7 +30,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Считать"/>
                                         <connections>
-                                            <action selector="addCounterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gcl-FV-PkL"/>
+                                            <action selector="addCounterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UrE-Yf-ebK"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="752" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8sj-4m-mLo">
@@ -43,7 +43,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Сброс"/>
                                         <connections>
-                                            <action selector="resetСounterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wAU-9Q-Mpn"/>
+                                            <action selector="resetСounterButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vi5-sm-pBB"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -74,9 +74,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="counterButton" destination="VhC-pV-xXd" id="lmH-TH-WGR"/>
-                        <outlet property="counterLabel" destination="X83-CH-e2M" id="aue-m6-Leh"/>
-                        <outlet property="resetButton" destination="8sj-4m-mLo" id="JWh-7x-0xJ"/>
+                        <outlet property="counterButton" destination="VhC-pV-xXd" id="Izp-Be-7bq"/>
+                        <outlet property="counterLabel" destination="X83-CH-e2M" id="z95-CL-WLU"/>
+                        <outlet property="resetButton" destination="8sj-4m-mLo" id="VOO-mw-Wiv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
